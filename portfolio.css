@@ -1,0 +1,155 @@
+body,
+html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/istockphoto-1419117748-612x612.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0px;
+}
+
+#accueil h2 {
+    margin-top: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section:nth-child(3){
+    padding-top: 0;
+}
+
+.projet h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.projet {
+    background: #343a40;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a:hover {
+    color: white;
+}
+
+a {
+    color: skyblue;
+}
+
+footer {
+    background: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Ajouts pour centrer et agrandir le formulaire */
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#apropos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    padding: 0 30px;
+    scroll-margin: 100px;
+}
+
+#apropos img {
+    border-radius: 16px;
+}
+
+#apropos .container {
+    margin: 0 0;
+    line-height: 30px;
+}
+
+#apropos a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#apropos a:hover {
+    text-decoration: underline;
+}
+
+#projet-details .container {
+    scroll-margin-top: 100px;
+}
+
+#projet-details .container > h2 {
+    margin-top: 70px;
+}
+
+#projets{
+    scroll-margin-top: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    #apropos {
+        flex-direction: column;
+    }
+}
