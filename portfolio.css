@@ -145,7 +145,7 @@ form {
 }
 
 #projets{
-    scroll-margin-top: 100px;
+    scroll-margin-top: 50px;
 }
 
 @media screen and (max-width: 992px) {
